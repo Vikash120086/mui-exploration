@@ -1,0 +1,443 @@
+{
+    "primaryNavItems": [
+      {
+        "linkText": "Products",
+        "items": [
+          {
+            "linkText": "Products Home",
+            "href": "/content/www/us/en/products/overview.html",
+            "items": [
+              {
+                "linkText": "Processors",
+                "items": [
+                  {
+                    "linkText": "Intel® Xeon® Scalable",
+                    "href": "/content/www/us/en/products/details/processors/xeon/scalable.html"
+                  },
+                  {
+                    "linkText": "Intel® Xeon® Max",
+                    "href": "/content/www/us/en/products/details/processors/xeon/max-series.html"
+                  },
+                  {
+                    "linkText": "Intel® Xeon®",
+                    "href": "/content/www/us/en/products/details/processors/xeon.html"
+                  },
+                  {
+                    "linkText": "Intel® Core™",
+                    "href": "/content/www/us/en/products/details/processors/core.html"
+                  },
+                  {
+                    "linkText": "Intel Atom®",
+                    "href": "/content/www/us/en/products/details/processors/atom.html"
+                  },
+                  {
+                    "linkText": "Intel® Processor",
+                    "href": "/content/www/us/en/products/details/processors/intel-processor.html"
+                  },
+                  {
+                    "linkText": "IoT and Embedded Processors",
+                    "href": "/content/www/us/en/products/details/embedded-processors.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Systems & Devices",
+                "items": [
+                  {
+                    "linkText": "Intel® Evo™",
+                    "href": "/content/www/us/en/products/systems-devices/laptops/evo.html"
+                  },
+                  {
+                    "linkText": "Laptops",
+                    "href": "/content/www/us/en/products/systems-devices/laptops.html"
+                  },
+                  {
+                    "linkText": "Desktops",
+                    "href": "/content/www/us/en/products/systems-devices/desktops.html"
+                  },
+                  {
+                    "linkText": "Workstations",
+                    "href": "/content/www/us/en/products/systems-devices/workstations.html"
+                  },
+                  {
+                    "linkText": "Intel vPro®",
+                    "href": "/content/www/us/en/architecture-and-technology/vpro/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Graphics Processing Units",
+                "items": [
+                  {
+                    "linkText": "Intel® Arc™",
+                    "href": "/content/www/us/en/products/details/discrete-gpus/arc.html"
+                  },
+                  {
+                    "linkText": "Intel® Iris® Xe Graphics",
+                    "href": "/content/www/us/en/products/details/discrete-gpus/iris-xe.html"
+                  },
+                  {
+                    "linkText": "Intel® Data Center GPU",
+                    "href": "/content/www/us/en/products/details/discrete-gpus/data-center-gpu.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "FPGAs & Programmable Devices",
+                "items": [
+                  {
+                    "linkText": "Intel® FPGAs, CPLDs, and Configuration Devices",
+                    "href": "/content/www/us/en/products/details/fpga.html"
+                  },
+                  {
+                    "linkText": "Intel® eASIC™ Structured ASIC Devices",
+                    "href": "/content/www/us/en/products/details/asics/easics.html"
+                  },
+                  {
+                    "linkText": "Intel® Quartus® Development Software & Tools",
+                    "href": "/content/www/us/en/products/details/fpga/development-tools.html"
+                  },
+                  {
+                    "linkText": "Intel FPGA Development Kits",
+                    "href": "/content/www/us/en/products/details/fpga/development-kits.html"
+                  },
+                  {
+                    "linkText": "Acceleration Boards & Platforms",
+                    "href": "/content/www/us/en/products/details/fpga/platforms.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Software",
+                "items": [
+                  {
+                    "linkText": "Trust and Security Solutions",
+                    "href": "/content/www/us/en/software/trust-and-security-solutions.html"
+                  },
+                  {
+                    "linkText": "Intel® Geti™",
+                    "href": "https://geti.intel.com/"
+                  },
+                  {
+                    "linkText": "cnvrg.io™",
+                    "href": "/content/www/us/en/developer/tools/cnvrg/overview.html"
+                  },
+                  {
+                    "linkText": "oneAPI",
+                    "href": "/content/www/us/en/developer/tools/oneapi/overview.html"
+                  },
+                  {
+                    "linkText": "Granulate™",
+                    "href": "/content/www/us/en/architecture-and-technology/granulate/overview.html"
+                  },
+                  {
+                    "linkText": "OpenVINO™",
+                    "href": "/content/www/us/en/developer/tools/openvino-toolkit/overview.html"
+                  },
+                  {
+                    "linkText": "Open Source Projects",
+                    "href": "/content/www/us/en/developer/topic-technology/open/project-catalog.html"
+                  },
+                  {
+                    "linkText": "Intel Developer Catalog",
+                    "href": "/content/www/us/en/developer/tools/software-catalog/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Chipsets",
+                "items": [
+                  {
+                    "linkText": "Mobile",
+                    "href": "/content/www/us/en/products/details/chipsets/mobile-chipsets.html"
+                  },
+                  {
+                    "linkText": "Desktop",
+                    "href": "/content/www/us/en/products/details/chipsets/desktop-chipsets.html"
+                  },
+                  {
+                    "linkText": "Server",
+                    "href": "/content/www/us/en/products/chipsets/server-chipsets.html"
+                  },
+                  {
+                    "linkText": "Embedded",
+                    "href": "/content/www/us/en/documentation-resources/developer.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Product Specifications",
+                "href": "https://ark.intel.com/content/www/us/en/ark.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "linkText": "Solutions",
+        "items": [
+          {
+            "display": false,
+            "items": [
+              {
+                "linkText": "Business Solutions",
+                "items": [
+                  {
+                    "linkText": "AI",
+                    "href": "/content/www/us/en/artificial-intelligence/overview.html"
+                  },
+                  {
+                    "linkText": "5G",
+                    "href": "/content/www/us/en/wireless-network/5g-technology-overview.html"
+                  },
+                  {
+                    "linkText": "Business PCs",
+                    "href": "/content/www/us/en/business/overview.html"
+                  },
+                  {
+                    "linkText": "Cloud Computing",
+                    "href": "/content/www/us/en/cloud-computing/overview.html"
+                  },
+                  {
+                    "linkText": "Edge Computing",
+                    "href": "/content/www/us/en/edge-computing/overview.html"
+                  },
+                  {
+                    "linkText": "IOT",
+                    "href": "/content/www/us/en/internet-of-things/overview.html"
+                  },
+                  {
+                    "linkText": "View all >",
+                    "href": "/content/www/us/en/topics/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Consumer Solutions",
+                "items": [
+                  {
+                    "linkText": "Creators",
+                    "href": "/content/www/us/en/creator/overview.html"
+                  },
+                  {
+                    "linkText": "Gaming",
+                    "href": "/content/www/us/en/gaming/serious-gaming.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Industry Solutions",
+                "items": [
+                  {
+                    "linkText": "Education",
+                    "href": "/content/www/us/en/education/intel-education.html"
+                  },
+                  {
+                    "linkText": "Financial Services",
+                    "href": "/content/www/us/en/financial-services-it/financial-services-overview.html"
+                  },
+                  {
+                    "linkText": "Government & Public Sector",
+                    "href": "/content/www/us/en/government/public-sector-solutions-overview.html"
+                  },
+                  {
+                    "linkText": "Healthcare & Life Sciences",
+                    "href": "/content/www/us/en/healthcare-it/healthcare-overview.html"
+                  },
+                  {
+                    "linkText": "Industrial",
+                    "href": "/content/www/us/en/internet-of-things/industrial-iot/overview.html"
+                  },
+                  {
+                    "linkText": "Retail",
+                    "href": "/content/www/us/en/retail/overview.html"
+                  },
+                  {
+                    "linkText": "Transportation",
+                    "href": "/content/www/us/en/transportation/overview.html"
+                  },
+                  {
+                    "linkText": "View all >",
+                    "href": "/content/www/us/en/industries/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Services",
+                "items": [
+                  {
+                    "linkText": "Intel Data Center Manager",
+                    "href": "/content/www/us/en/software/data-center-overview.html"
+                  },
+                  {
+                    "linkText": "Intel Foundry Services",
+                    "href": "/content/www/us/en/foundry/intel-foundry-services.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Resources",
+                "items": [
+                  {
+                    "linkText": "Customer Spotlight",
+                    "href": "/content/www/us/en/customer-spotlight/overview.html"
+                  },
+                  {
+                    "linkText": "Technology Tips & Tricks",
+                    "href": "/content/www/us/en/tech-tips-and-tricks/tech-tips.html"
+                  },
+                  {
+                    "linkText": "Partner Stories",
+                    "href": "/content/www/us/en/partner/showcase/partner-stories.html"
+                  },
+                  {
+                    "linkText": "Intel® Solutions Marketplace",
+                    "href": "/content/www/us/en/partner/showcase-overview.html"
+                  },
+                  {
+                    "linkText": "People Creating Wonderful",
+                    "href": "/content/www/us/en/company-overview/wonderful.html"
+                  },
+                  {
+                    "linkText": "Intel Blogs",
+                    "href": "https://community.intel.com/t5/Blogs/ct-p/blogs"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "linkText": "Developers",
+        "items": [
+          {
+            "linkText": "Developers Home",
+            "items": [
+              {
+                "linkText": "Development Tools",
+                "items": [
+                  {
+                    "linkText": "Software Catalog",
+                    "href": "/content/www/us/en/developer/tools/software-catalog/overview.html"
+                  },
+                  {
+                    "linkText": "Download Center",
+                    "href": "/content/www/us/en/download-center/home.html"
+                  },
+                  {
+                    "linkText": "Design Tools and Services",
+                    "href": "https://designintools.intel.com/"
+                  },
+                  {
+                    "linkText": "Software Registration",
+                    "href": "https://registrationcenter.intel.com/en/"
+                  }
+                ]
+              },
+              {
+                "linkText": "Topics & Technologies",
+                "items": [
+                  {
+                    "linkText": "Artificial Intelligence",
+                    "href": "/content/www/us/en/developer/topic-technology/artificial-intelligence/overview.html"
+                  },
+                  {
+                    "linkText": "Client",
+                    "href": "/content/www/us/en/developer/topic-technology/client/overview.html"
+                  },
+                  {
+                    "linkText": "Cloud",
+                    "href": "/content/www/us/en/developer/topic-technology/cloud/overview.html"
+                  },
+                  {
+                    "linkText": "Game Development",
+                    "href": "/content/www/us/en/developer/topic-technology/gamedev/overview.html"
+                  },
+                  {
+                    "linkText": "Edge, IoT & 5G",
+                    "href": "/content/www/us/en/developer/topic-technology/edge-5g/overview.html"
+                  },
+                  {
+                    "linkText": "High Performance Computing (HPC)",
+                    "href": "/content/www/us/en/developer/topic-technology/high-performance-computing/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Resources & Documentation",
+                "items": [
+                  {
+                    "linkText": "Learn",
+                    "href": "/content/www/us/en/developer/learn/overview.html"
+                  },
+                  {
+                    "linkText": "Communities & Events",
+                    "href": "/content/www/us/en/developer/community/overview.html"
+                  },
+                  {
+                    "linkText": "Developer Programs",
+                    "href": "/content/www/us/en/developer/programs/overview.html"
+                  },
+                  {
+                    "linkText": "Get Help",
+                    "href": "/content/www/us/en/developer/get-help/overview.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "linkText": "Partners",
+        "items": [
+          {
+            "display": false,
+            "items": [
+              {
+                "linkText": "Intel® Partner Alliance",
+                "href": "/content/www/us/en/partner-alliance/overview.html",
+                "items": [
+                  {
+                    "linkText": "About Membership",
+                    "href": "/content/www/us/en/partner-alliance/membership/overview.html"
+                  },
+                  {
+                    "linkText": "Already a Member? Login",
+                    "href": "/content/www/us/en/secure/partner-alliance/overview.html"
+                  },
+                  {
+                    "linkText": "Submit a Solution",
+                    "href": "/content/www/us/en/partner-alliance/marketplace/submit-a-solution.html"
+                  },
+                  {
+                    "linkText": "Get Help",
+                    "href": "/content/www/us/en/partner-alliance/help/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Intel® Solutions Marketplace",
+                "href": "/content/www/us/en/partner/showcase-overview.html",
+                "items": [
+                  {
+                    "linkText": "Offerings by Category",
+                    "href": "/content/www/us/en/partner/showcase/offerings-by-category/overview.html"
+                  },
+                  {
+                    "linkText": "Partner Directory",
+                    "href": "/content/www/us/en/partner/showcase/partner-directory/overview.html"
+                  }
+                ]
+              },
+              {
+                "linkText": "Retail Partner Solutions",
+                "href": "/content/www/us/en/secure/retail/partner-solutions/overview.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

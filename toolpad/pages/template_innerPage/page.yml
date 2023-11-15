@@ -1,0 +1,166 @@
+apiVersion: v1
+kind: page
+spec:
+  id: 8mvU7wD
+  title: template_innerPage
+  content:
+    - component: codeComponent.Header
+      name: codeComponent_Header
+      props:
+        navData:
+          $$jsExpression: |
+            headerNavigation.data.primaryNavItems
+        loggedIn: false
+
+    - component: PageRow
+      name: pageRow3
+      props:
+        justifyContent: start
+      children:
+        - component: Button
+          name: button4
+          props:
+            content: Landing Page
+            onClick:
+              $$navigationAction:
+                page: JaD2klE
+                parameters: {}
+            variant: outlined
+        - component: Button
+          name: button3
+          props:
+            content: Hero Demo
+            onClick:
+              $$navigationAction:
+                page: TpYgSx7
+                parameters: {}
+    - component: codeComponent.Hero
+      name: codeComponent_Hero
+      props:
+        headingVariant: h1
+        backgroundColor: ""
+        src: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-07/quantum-sdk-marquee-1920x1080e.jpg.rendition.intel.web.864.486.jpg
+        ctaText: Call to Action
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList
+      props:
+        resources:
+          $$jsExpression: |
+            ColumnList.data.resources
+        heading: Popular Resources
+        headingVariant: h3
+        backgroundColor: ""
+    - component: PageRow
+      name: pageRow
+      props:
+        justifyContent: start
+      children:
+        - component: PageColumn
+          name: pageColumn
+          layout:
+            columnSize: 1
+          children:
+            - component: PageRow
+              name: pageRow1
+              props:
+                justifyContent: start
+              children:
+                - component: codeComponent.Video
+                  name: codeComponent_Video
+                  layout:
+                    columnSize: 1
+                  props:
+                    videoType: brightcove
+                - component: codeComponent.Video
+                  name: codeComponent_Video3
+            - component: codeComponent.IntroText
+              name: codeComponent_IntroText
+              props:
+                title: intro text component
+            - component: Button
+              name: button2
+        - component: PageColumn
+          name: pageColumn1
+          layout:
+            columnSize: 0.9989924674950823
+          children:
+            - component: PageRow
+              name: pageRow2
+              props:
+                justifyContent: start
+              children:
+                - component: codeComponent.Video
+                  name: codeComponent_Video1
+                  layout:
+                    columnSize: 1
+                  props:
+                    width: auto
+                    height: auto
+                - component: codeComponent.Video
+                  name: codeComponent_Video4
+            - component: codeComponent.IntroText
+              name: codeComponent_IntroText1
+              props:
+                bodyVariant: body1
+            - component: Button
+              name: button1
+        - component: PageColumn
+          name: pageColumn2
+          layout:
+            columnSize: 1.0010075325049177
+          children:
+            - component: codeComponent.Video
+              name: codeComponent_Video2
+              layout:
+                columnSize: 1
+              props:
+                height: auto
+                videoId: o1chMISeTC0
+                videoType: youtube
+                width: 100%
+                autoplay: true
+            - component: codeComponent.IntroText
+              name: codeComponent_IntroText2
+            - component: Button
+              name: button
+    - component: codeComponent.Footer
+      name: codeComponent_Footer
+      layout:
+        columnSize: 1
+      props:
+        links:
+          $$jsExpression: |
+            Footer.data.links
+        subLinks:
+          $$jsExpression: |
+            Footer.data.subLinks
+  queries:
+    - name: StoresQuery
+      query:
+        kind: rest
+        url: https://api.npoint.io/32b10dfe6d3420917441
+        searchParams: []
+        headers: []
+        method: GET
+    - name: ColumnList
+      query:
+        kind: rest
+        url: https://api.npoint.io/a80bd354379417e44e20
+        searchParams: []
+        headers: []
+        method: GET
+    - name: Footer
+      query:
+        kind: rest
+        url: https://api.npoint.io/7eca1e17b8b96dd364fa
+        searchParams: []
+        headers: []
+        method: GET
+    - name: headerNavigation
+      query:
+        kind: rest
+        url: https://api.npoint.io/b98b0f96f8258d7f0518
+        headers: []
+        method: GET
+        searchParams: []
+  display: shell

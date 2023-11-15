@@ -1,0 +1,147 @@
+apiVersion: v1
+kind: page
+spec:
+  id: JaD2klE
+  title: template_homepage
+  display: shell
+  content:
+    - component: codeComponent.Header
+      name: codeComponent_Header
+      props:
+        navData:
+          $$jsExpression: |
+            headerNavigation.data.primaryNavItems
+        loggedIn: false
+    - component: PageRow
+      name: pageRow
+      props:
+        justifyContent: start
+      children:
+        - component: Button
+          name: button
+          props:
+            variant: outlined
+            content: Inner Page
+            onClick:
+              $$navigationAction:
+                page: 8mvU7wD
+                parameters: {}
+        - component: Button
+          name: HeroDemo
+          props:
+            content: Hero Demo
+            onClick:
+              $$navigationAction:
+                page: TpYgSx7
+                parameters: {}
+    - component: codeComponent.Hero
+      name: codeComponent_Hero
+      props:
+        src: https://assets.maccarianagency.com/backgrounds/img8.jpg
+        backgroundColor: ""
+        headingVariant: h1
+        ctaText: Call to Action
+        bodyVariant: h3
+        ctaLink: h6
+        ctaText2: Learn More
+        ctaText1: Case Studies
+        textPosition: left
+        heroType: leftText
+        heading: Design agency that inspires
+        subHeading: World developers use our theFront theme to build their web
+          applications. Save yourself time and money.
+        body: ""
+        ctaButtonVariant2: outlined
+        subHeadingVariant: h5
+        maxWidth: ""
+        contentAlignment: left
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList
+      props:
+        heading: Popular resources
+        resourceHeadingVariant: subtitle1
+        resourceBodyVariant: subtitle2
+        resourceDisplayType: list
+        columns:
+          xs: 1
+          sm: 2
+          md: 6
+          lg: 6
+          xl: 6
+        resourceButtonVariant: text
+        headingVariant: h4
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList1
+      props:
+        resources:
+          $$jsExpression: |
+            columnListData.data.resources2
+        columns:
+          xs: 1
+          sm: 2
+          md: 4
+          lg: 4
+          xl: 4
+        resourceHeadingVariant: h6
+        resourceBodyVariant: body2
+        heading: Supported Browsers
+        headingVariant: h5
+    - component: codeComponent.Stories
+      name: codeComponent_Stories
+      props:
+        leftPillar:
+          $$jsExpression: |
+            StoresQuery.data.leftPillar
+        rightPillar:
+          $$jsExpression: |
+            StoresQuery.data.rightPillar
+        mainPillar:
+          $$jsExpression: |
+            StoresQuery.data.mainPillar
+    - component: codeComponent.Footer
+      name: codeComponent_Footer
+      props:
+        links:
+          $$jsExpression: |
+            Footer.data.links
+        subLinks:
+          $$jsExpression: |
+            Footer.data.subLinks
+        logo: null
+        disclaimer: Custom Disclaimer Texts
+  queries:
+    - name: StoresQuery
+      query:
+        kind: rest
+        url: https://api.npoint.io/32b10dfe6d3420917441
+        headers: []
+        method: GET
+        searchParams: []
+    - name: ColumnList
+      query:
+        kind: rest
+        url: https://api.npoint.io/a80bd354379417e44e20
+        headers: []
+        method: GET
+        searchParams: []
+    - name: Footer
+      query:
+        kind: rest
+        url: https://api.npoint.io/7eca1e17b8b96dd364fa
+        headers: []
+        method: GET
+        searchParams: []
+    - name: headerNavigation
+      query:
+        kind: rest
+        url: https://api.npoint.io/b98b0f96f8258d7f0518
+        headers: []
+        method: GET
+        searchParams: []
+    - name: columnListData
+      query:
+        kind: rest
+        url: https://api.npoint.io/73a02fb62dc9108bc08f
+        headers: []
+        method: GET
+        searchParams: []

@@ -1,0 +1,170 @@
+{
+    "set1": [
+      {
+        "title": "How do I create an account?",
+        "content": "To create an account, click on the 'Sign Up' button and fill out the required information.",
+        "panelId": "faq-1"
+      },
+      {
+        "title": "Can I change my password?",
+        "content": "Yes, you can change your password by going to the 'Account Settings' page and selecting the 'Change Password' option.",
+        "panelId": "faq-2"
+      },
+      {
+        "title": "What payment methods do you accept?",
+        "content": "We accept all major credit cards, as well as PayPal and Apple Pay.",
+        "panelId": "faq-3"
+      },
+      {
+        "title": "How long does shipping take?",
+        "content": "Shipping times vary depending on your location. Generally, it takes 3-5 business days for domestic orders and 7-10 business days for international orders.",
+        "panelId": "faq-4"
+      },
+      {
+        "title": "What is your return policy?",
+        "content": "We offer a 30-day return policy. If you are not satisfied with your purchase, you can return it for a full refund or exchange.",
+        "panelId": "faq-5"
+      },
+      {
+        "title": "Do you offer gift wrapping?",
+        "content": "Yes, we offer gift wrapping services. You can select the gift wrapping option during checkout.",
+        "panelId": "faq-6"
+      },
+      {
+        "title": "Can I track my order?",
+        "content": "Yes, you can track your order by logging into your account and going to the 'Order History' page.",
+        "panelId": "faq-7"
+      },
+      {
+        "title": "How can I contact customer support?",
+        "content": "You can contact our customer support team by emailing support@example.com or calling our toll-free number.",
+        "panelId": "faq-8"
+      }
+    ],
+    "set2": [
+      {
+        "title": "How do I create an account?",
+        "content": "To create an account, click on the 'Sign Up' button and fill out the required information.",
+        "panelId": "faq-1"
+      },
+      {
+        "title": "Can I change my password?",
+        "content": "Yes, you can change your password by going to the 'Account Settings' page and selecting the 'Change Password' option.",
+        "panelId": "faq-2"
+      },
+      {
+        "title": "What payment methods do you accept?",
+        "content": "We accept all major credit cards, as well as PayPal and Apple Pay.",
+        "panelId": "faq-3"
+      },
+      {
+        "title": "How long does shipping take?",
+        "content": "Shipping times vary depending on your location. Generally, it takes 3-5 business days for domestic orders and 7-10 business days for international orders.",
+        "panelId": "faq-4"
+      },
+      {
+        "title": "What is your return policy?",
+        "content": "We offer a 30-day return policy. If you are not satisfied with your purchase, you can return it for a full refund or exchange.",
+        "panelId": "faq-5"
+      },
+      {
+        "title": "Do you offer gift wrapping?",
+        "content": "Yes, we offer gift wrapping services. You can select the gift wrapping option during checkout.",
+        "panelId": "faq-6"
+      },
+      {
+        "title": "Can I track my order?",
+        "content": "Yes, you can track your order by logging into your account and going to the 'Order History' page.",
+        "panelId": "faq-7"
+      },
+      {
+        "title": "How can I contact customer support?",
+        "content": "You can contact our customer support team by emailing support@example.com or calling our toll-free number.",
+        "panelId": "faq-8"
+      }
+    ],
+    "set3": [
+      {
+        "title": "How do I change my password?",
+        "content": "To change your password, go to the 'Account Settings' page and select the 'Change Password' option.",
+        "panelId": "faq-41"
+      },
+      {
+        "title": "What is your product quality guarantee?",
+        "content": "We guarantee the quality of all of our products. If you experience any issues with your product, please contact our customer support team.",
+        "panelId": "faq-42"
+      },
+      {
+        "title": "Do you offer international returns?",
+        "content": "Yes, we offer international returns. Please contact our customer support team for more information.",
+        "panelId": "faq-43"
+      },
+      {
+        "title": "How do I change my shipping method?",
+        "content": "To change your shipping method, go to the 'Account Settings' page and select the 'Shipping Method' option.",
+        "panelId": "faq-44"
+      },
+      {
+        "title": "What is your product exchange policy?",
+        "content": "We offer a 14-day exchange policy. If you are not satisfied with your purchase, you can exchange it for a different item of equal or lesser value.",
+        "panelId": "faq-45"
+      },
+      {
+        "title": "Do you offer free gift wrapping?",
+        "content": "Yes, we offer free gift wrapping on all orders.",
+        "panelId": "faq-46"
+      },
+      {
+        "title": "How do I apply for a job at your company?",
+        "content": "To apply for a job at our company, please visit our careers page on our website.",
+        "panelId": "faq-47"
+      },
+      {
+        "title": "What is your company's mission statement?",
+        "content": "Our mission is to provide high-quality products and exceptional customer service to our customers.",
+        "panelId": "faq-48"
+      }
+    ],
+    "set4": [
+      {
+        "title": "How do I check the status of my return?",
+        "content": "You can check the status of your return by logging into your account and going to the 'Return History' page.",
+        "panelId": "faq-49"
+      },
+      {
+        "title": "What is your product safety policy?",
+        "content": "We take product safety very seriously and adhere to all safety regulations and standards.",
+        "panelId": "faq-50"
+      },
+      {
+        "title": "Do you offer same-day shipping?",
+        "content": "Yes, we offer same-day shipping for orders placed before 12pm EST. Please select the same-day shipping option during checkout.",
+        "panelId": "faq-51"
+      },
+      {
+        "title": "How do I change my billing address?",
+        "content": "To change your billing address, go to the 'Account Settings' page and select the 'Billing Address' option.",
+        "panelId": "faq-52"
+      },
+      {
+        "title": "What is your product sustainability policy?",
+        "content": "We are committed to sustainability and use eco-friendly materials whenever possible.",
+        "panelId": "faq-53"
+      },
+      {
+        "title": "Do you offer free samples?",
+        "content": "Yes, we offer free samples of select products. Please contact our customer support team for more information.",
+        "panelId": "faq-54"
+      },
+      {
+        "title": "How do I leave a product review?",
+        "content": "To leave a product review, go to the product page and click on the 'Write a Review' button.",
+        "panelId": "faq-55"
+      },
+      {
+        "title": "What is your company's vision?",
+        "content": "Our vision is to become the leading provider of high-quality products and exceptional customer service in our industry.",
+        "panelId": "faq-56"
+      }
+    ]
+  }

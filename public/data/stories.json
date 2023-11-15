@@ -1,0 +1,285 @@
+{
+    "resources1": [
+      {
+        "heading": "Themeable",
+        "body": "Customize any part of our components to match your design needs.",
+        "linkText": "More Themeable",
+        "link": "https://www.google.com",
+        "muiIcon": "AccessAlarm",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {},
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Customization",
+        "body": "Change the look and feel of our components to suit your preferences.",
+        "linkText": "Learn More",
+        "link": "https://www.facebook.com",
+        "muiIcon": "AccessibilityNew",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(255, 235, 59, 0.1)",
+          "color": "rgb(255, 235, 59)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Adaptability",
+        "body": "Our components are flexible and easy to adapt for various use cases.",
+        "linkText": "Get Started",
+        "link": "https://www.apple.com",
+        "muiIcon": "AcUnit",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(75, 175, 80, 0.1)",
+          "color": "rgb(76, 175, 80)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Tailor-Made Solutions",
+        "body": "Create tailor-made solutions with our versatile components.",
+        "linkText": "Explore Features",
+        "link": "https://www.microsoft.com#1",
+        "muiIcon": "AccessTime",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(244, 67, 54, 0.1)",
+          "color": "rgb(244, 67, 54)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Easily Customizable",
+        "body": "Easily customize and integrate our components into your projects.",
+        "linkText": "Discover More",
+        "link": "https://www.amazon.com#2",
+        "muiIcon": "AccountBalance",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(3, 169, 244, 0.1)",
+          "color": "rgb(3, 169, 244)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Lorem Ipsum",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "linkText": "Read More",
+        "link": "https://www.example.com#4",
+        "muiIcon": "AccountCircle",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(128, 128, 128, 0.1)",
+          "color": "rgb(128, 128, 128)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Productivity",
+        "body": "Boost your productivity with our efficient tools and features.",
+        "linkText": "Explore Tools",
+        "link": "https://www.linkedin.com#5",
+        "muiIcon": "Accessibility",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(0, 0, 0, 0.1)",
+          "color": "rgb(0, 0, 0)"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Explore More",
+        "body": "Discover a world of possibilities with our innovative solutions.",
+        "linkText": "Explore Now",
+        "link": "https://www.microsoft.com#6",
+        "muiIcon": "AccountBox",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(255, 0, 0, 0.1)",
+          "color": "rgb(255, 0, 0)"
+        },
+        "linkTarget": "_blank"
+      }
+    ],
+    "resources2": [
+      {
+        "heading": "Google Chrome",
+        "body": "Google Chrome is a cross-platform web browser developed by Google.",
+        "linkText": "",
+        "link": "",
+        "muiIcon": "",
+        "iconSrc": "https://assets.maccarianagency.com/browsers/chrome.png",
+        "iconVariant": "round",
+        "iconSX": {
+          "width": "80px",
+          "height": "80px"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Safari",
+        "body": "Safari is a graphical web browser developed by Apple, based on the WebKit engine.",
+        "linkText": "",
+        "link": "",
+        "muiIcon": "",
+        "iconSrc": "https://assets.maccarianagency.com/browsers/safari.png",
+        "iconVariant": "round",
+        "iconSX": {
+          "bgcolor": "rgba(255, 235, 59, 0.1)",
+          "color": "rgb(255, 235, 59)",
+          "width": "80px",
+          "height": "80px"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Mozilla Firefox",
+        "body": "Mozilla Firefox, or simply Firefox, is a free and web browser developed by the Mozilla.",
+        "muiIcon": "",
+        "iconSrc": "https://assets.maccarianagency.com/browsers/firefox.png",
+        "iconVariant": "round",
+        "iconSX": {
+          "bgcolor": "rgba(75, 175, 80, 0.1)",
+          "color": "rgb(76, 175, 80)",
+          "width": "80px",
+          "height": "80px"
+        },
+        "linkTarget": "_blank"
+      },
+      {
+        "heading": "Microsoft Edge",
+        "body": "Microsoft Edge is a web browser developed by Microsoft. It was first released for Windows 10.",
+        "linkText": "",
+        "link": "",
+        "muiIcon": "",
+        "iconSrc": "https://assets.maccarianagency.com/browsers/edge.png",
+        "iconVariant": "round",
+        "iconSX": {
+          "bgcolor": "rgba(244, 67, 54, 0.1)",
+          "color": "rgb(244, 67, 54)",
+          "width": "80px",
+          "height": "80px"
+        },
+        "linkTarget": "_blank"
+      }
+    ],
+    "resources3": [
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "width": "80px",
+          "height": "80px"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/microsoft-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "color": "rgb(255, 235, 59)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(255, 235, 59, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/amazon-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "iconSX": {
+          "color": "rgb(76, 175, 80)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(75, 175, 80, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/coca-cola-logo.png",
+        "muiIcon": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "color": "rgb(244, 67, 54)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(244, 67, 54, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/samsung-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "color": "rgb(244, 67, 54)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(244, 67, 54, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/walt-disney-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "color": "rgb(244, 67, 54)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(244, 67, 54, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/google-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      },
+      {
+        "body": "",
+        "link": "",
+        "iconSX": {
+          "color": "rgb(244, 67, 54)",
+          "width": "80px",
+          "height": "80px",
+          "bgcolor": "rgba(244, 67, 54, 0.1)"
+        },
+        "heading": "",
+        "iconSrc": "https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/apple-logo.png",
+        "muiIcon": "",
+        "linkText": "",
+        "linkTarget": "_blank",
+        "iconVariant": "square"
+      }
+    ]
+  }

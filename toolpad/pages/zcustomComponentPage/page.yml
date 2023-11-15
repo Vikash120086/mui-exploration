@@ -1,0 +1,108 @@
+apiVersion: v1
+kind: page
+spec:
+  id: iMTPTF4
+  title: zcustomComponent
+  content:
+    - component: codeComponent.Map
+      name: codeComponent_Map
+    - component: Text
+      name: text
+      props:
+        value: Default Image Component
+    - component: Text
+      name: text4
+    - component: codeComponent.IntroText
+      name: codeComponent_IntroText
+      props:
+        titleVariant: h1
+        bodyVariant: h4
+    - component: Image
+      name: image
+      props:
+        loading: false
+      layout:
+        horizontalAlign: start
+    - component: Text
+      name: text1
+      props:
+        value: Extending Image Component
+        mode: text
+    - component: codeComponent.ExtendedImage
+      name: codeComponent_ExtendedImage
+    - component: codeComponent.ExtendedImage
+      name: codeComponent_ExtendedImage1
+    - component: Text
+      name: text2
+      props:
+        value: Custom Cube Component
+    - component: codeComponent.Cube
+      name: codeComponent_Cube
+    - component: Text
+      name: text3
+      props:
+        value: Data grid
+    - component: DataGrid
+      name: dataGrid
+      props:
+        rows:
+          $$jsExpression: |
+            movieQuery.data
+        columns:
+          - field: id
+            type: number
+          - field: title
+            type: string
+          - field: year
+            type: number
+          - field: runtime
+            type: number
+          - field: genres
+            type: json
+          - field: director
+            type: string
+          - field: actors
+            type: string
+            width: 99
+          - field: plot
+            type: string
+          - field: posterUrl
+            type: image
+        rowIdField: title
+    - component: DataGrid
+      name: dataGrid1
+      props:
+        rows:
+          $$jsExpression: |
+            movieQuery.data
+        columns:
+          - field: id
+            type: number
+          - field: title
+            type: string
+          - field: year
+            type: number
+          - field: runtime
+            type: number
+          - field: genres
+            type: json
+          - field: director
+            type: string
+          - field: actors
+            type: string
+            width: 99
+          - field: plot
+            type: string
+          - field: posterUrl
+            type: image
+        rowIdField: title
+  display: standalone
+  queries:
+    - name: movieQuery
+      query:
+        kind: rest
+        headers: []
+        method: GET
+        transform: "return data?.movies\r\n"
+        transformEnabled: true
+        searchParams: []

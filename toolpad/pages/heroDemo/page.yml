@@ -1,0 +1,231 @@
+apiVersion: v1
+kind: page
+spec:
+  id: TpYgSx7
+  title: heroDemo
+  content:
+    - component: Button
+      name: button
+      props:
+        variant: outlined
+        content: Home Page
+        onClick:
+          $$navigationAction:
+            page: JaD2klE
+            parameters: {}
+    - component: codeComponent.Hero
+      name: codeComponent_Hero
+      props:
+        src: https://assets.maccarianagency.com/backgrounds/img8.jpg
+        backgroundColor: ""
+        headingVariant: h1
+        ctaText: Call to Action
+        bodyVariant: h5
+        ctaLink: h6
+        ctaText2: Learn MOre
+        ctaText1: Case studies
+        textPosition: left
+        heroType: leftText
+        heading: Design agency that inspires
+        contentAlignment: center
+        heroMinHeight: 250px
+        subHeading: World developers use our theFront theme to build their web
+          applications. Save yourself time and money.
+        subHeadingVariant: h3
+        ctaButtonVariant2: text
+        ctaLink1: http://google.com
+        ctaButtonVariant1: contained
+        ctaLink2: http://google.com
+    - component: codeComponent.Hero
+      name: codeComponent_Hero1
+      props:
+        src: https://assets.maccarianagency.com/screenshots/dashboard.png
+        backgroundColor: ""
+        headingVariant: subtitle2
+        ctaText: Call to Action
+        bodyVariant: body1
+        ctaLink: h6
+        ctaText2: Learn More
+        ctaText1: Start Now
+        textPosition: left
+        heroType: rightText
+        heading: "Right Text: "
+        contentAlignment: left
+        heroMinHeight: 250px
+        subHeading: Beautiful data representation built with theFront
+        subHeadingVariant: h1
+        ctaButtonVariant2: outlined
+        body:
+          World developers use our theFront theme to build their internal tools and
+          client admin applications.
+    - component: codeComponent.Video
+      name: codeComponent_Video
+      props:
+        height: "400"
+        videoType: youtube
+        width: 100vw
+    - component: codeComponent.Hero
+      name: codeComponent_Hero3
+      props:
+        src: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-07/quantum-sdk-marquee-1920x1080e.jpg.rendition.intel.web.864.486.jpg
+        backgroundColor: "#fee"
+        headingVariant: subtitle2
+        ctaText: Call to Action
+        bodyVariant: body1
+        ctaLink: h6
+        ctaText2: ""
+        ctaText1: CTA1
+        textPosition: left
+        heroType: noImage
+        heading: No Image Hero
+        subHeading: Simple pricing
+        body: Pick the best plan based on your ad spend
+        subHeadingVariant: h3
+        contentAlignment: center
+    - component: codeComponent.Hero
+      name: codeComponent_Hero2
+      props:
+        src: https://assets.maccarianagency.com/backgrounds/img48.jpg
+        backgroundColor: ""
+        headingVariant: subtitle1
+        ctaText: Call to Action
+        bodyVariant: body1
+        ctaLink: h6
+        ctaText2: ""
+        ctaText1: View all plugins
+        textPosition: left
+        heroType: belowText
+        heading: "Text Below Image:"
+        subHeading: We love to explore new ways to engage with brands and reach
+        body:
+          Our mission is to help you to grow your design skills, meet and connect
+          with professional dsigners who share your passions.
+        ctaButtonVariant1: text
+    - component: codeComponent.Hero
+      name: codeComponent_Hero7
+      props:
+        src: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-07/quantum-sdk-marquee-1920x1080e.jpg.rendition.intel.web.864.486.jpg
+        backgroundColor: "#ccf"
+        headingVariant: h2
+        ctaText: Call to Action
+        bodyVariant: body1
+        ctaLink: h6
+        ctaText2: ""
+        ctaText1: "Download Now "
+        textPosition: left
+        heroType: noImage
+        heading: Everything your team could need.
+        subHeading:
+          We make sure to include all the amenities and niceties that a
+          growing startup could possibly need.
+        subHeadingVariant: h3
+        body:
+          Download the package Get your dream data management system without the
+          hassle.
+        contentAlignment: left
+    - component: codeComponent.Hero
+      name: codeComponent_Hero4
+      props:
+        src: https://assets.maccarianagency.com/backgrounds/img44.jpg
+        backgroundColor: ""
+        headingVariant: subtitle1
+        ctaText: Call to Action
+        bodyVariant: body1
+        ctaLink: h6
+        ctaText2: ""
+        ctaText1: CTA1
+        textPosition: left
+        heroType: imageBackground
+        heading: "Image Background:"
+        subHeadingVariant: h1
+        heroMinHeight: 360px
+        subHeading: Larq
+        body:
+          A self-cleaning water bottle that'll help you reach your hydration goal.
+          Odor-causing bacteria using UV-C light.
+        textSx:
+          background: "#fff8"
+    - component: codeComponent.Hero
+      name: codeComponent_Hero5
+      props:
+        src: https://assets.maccarianagency.com/backgrounds/img4.jpg
+        backgroundColor: ""
+        headingVariant: subtitle2
+        ctaText: Call to Action
+        bodyVariant: h3
+        ctaLink: h6
+        ctaText2: "CTA 2 "
+        ctaText1: CTA1
+        textPosition: left
+        heroType: leftText
+        heading: Small Heading Small Height
+        contentAlignment: left
+        subHeadingVariant: subtitle2
+        heroMinHeight: 20px
+        ctaLink1: h3
+    - component: codeComponent.Hero
+      name: codeComponent_Hero6
+      props:
+        src: https://www.intel.com/content/dam/www/central-libraries/us/en/images/2023-07/quantum-sdk-marquee-1920x1080e.jpg.rendition.intel.web.864.486.jpg
+        backgroundColor: "#cfc"
+        headingVariant: subtitle1
+        ctaText: Call to Action
+        bodyVariant: h6
+        ctaLink: h6
+        ctaText2: Explore More
+        ctaText1: Book a tutor
+        textPosition: left
+        heroType: noImage
+        heading: No Image Hero with Background Color
+        contentAlignment: center
+        subHeading: Our global class is open for all
+        body:
+          The best way to learn is by using skills. That's why every class has a
+          project that lets you practice and get feedback.
+        ctaButtonVariant2: outlined
+        sx:
+          padding: 30px 0
+    - component: codeComponent.StackedHero
+      name: codeComponent_StackedHero
+      props:
+        headingVariant: h1
+        bodyVariant: body1
+        data:
+          $$jsExpression: |
+            stackedhero.data.stackedhero
+  queries:
+    - name: StoresQuery
+      query:
+        kind: rest
+        url: https://api.npoint.io/32b10dfe6d3420917441
+        searchParams: []
+        headers: []
+        method: GET
+    - name: ColumnList
+      query:
+        kind: rest
+        url: https://api.npoint.io/a80bd354379417e44e20
+        searchParams: []
+        headers: []
+        method: GET
+    - name: Footer
+      query:
+        kind: rest
+        url: https://api.npoint.io/7eca1e17b8b96dd364fa
+        searchParams: []
+        headers: []
+        method: GET
+    - name: headerNavigation
+      query:
+        kind: rest
+        url: https://api.npoint.io/b98b0f96f8258d7f0518
+        searchParams: []
+        headers: []
+        method: GET
+    - name: stackedhero
+      query:
+        kind: rest
+        url: https://api.npoint.io/174a28156e76f98ca08d
+        headers: []
+        method: GET
+  display: standalone

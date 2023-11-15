@@ -1,0 +1,400 @@
+apiVersion: v1
+kind: page
+spec:
+  id: 8CjVzOZ
+  title: columnListDemo
+  display: standalone
+  content:
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList3
+      props:
+        resourceButtonVariant: text
+        resourceDisplayType: list
+        resources:
+          - heading: ""
+            body: ""
+            linkText: Link 1
+            link: "#1"
+            linkTarget: _blank
+            muiIcon: ""
+            iconSrc: https://assets.maccarianagency.com/backgrounds/img8.jpg
+            iconVariant: round
+            iconSX: {}
+          - heading: ""
+            body: ""
+            linkText: Link 2
+            link: "#2"
+            linkTarget: _blank
+            muiIcon: ThreeSixty
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(255, 235, 59, 0.1)
+              color: rgb(255, 235, 59)
+          - heading: ""
+            body: ""
+            linkText: Link 3
+            link: "#3"
+            linkTarget: _blank
+            muiIcon: ThreeSixty
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(75, 175, 80, 0.1)
+              color: rgb(76, 175, 80)
+          - heading: ""
+            body: ""
+            linkText: Link 4
+            link: "#4"
+            linkTarget: _blank
+            muiIcon: ThreeSixty
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(244, 67, 54, 0.1)
+              color: rgb(244, 67, 54)
+          - heading: ""
+            body: ""
+            linkText: Link 5
+            link: "#5"
+            linkTarget: _blank
+            muiIcon: ThreeSixty
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(3, 169, 244, 0.1)
+              color: rgb(3, 169, 244)
+        resourceSX:
+          textAlign: center
+        columns:
+          xs: 1
+          sm: 2
+          md: 6
+          lg: 6
+          xl: 6
+        heading: Popular Resources
+        headingVariant: h2
+        subHeadingVariant: subtitle1
+        sx:
+          textAlign: left
+        elevation: 3
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList4
+      props:
+        resourceButtonVariant: outlined
+        resourceDisplayType: card
+        resources:
+          $$jsExpression: |
+            resourcejsonbin?.data?.resources1
+        resourceSX:
+          textAlign: center
+          alignItems: center
+          justifyContent:
+            xs: center
+        columns:
+          xs: 1
+          sm: 2
+          md: 3
+          lg: 3
+          xl: 3
+        heading: "Card 3 column : Choose your course by categories"
+        headingVariant: h2
+        subHeading:
+          The best way to learn is by using skills. Browse the available
+          course categories, choose your favourite one and start learning.
+        subHeadingVariant: subtitle1
+        sx:
+          textAlign: left
+        elevation: 10
+        resourceBodyVariant: h6
+        resourceHeadingVariant: subtitle1
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList1
+      props:
+        resourceButtonVariant: outlined
+        resourceDisplayType: card
+        resources:
+          $$jsExpression: |
+            resourcejsonbin.data.resources1
+        resourceSX:
+          textAlign: center
+          alignItems:
+            xs: center
+          justifyContent:
+            xs: center
+        columns:
+          xs: 1
+          sm: 2
+          md: 3
+          lg: 3
+          xl: 3
+        heading: "Card 3 column : Choose your course by categories"
+        headingVariant: h2
+        subHeading:
+          The best way to learn is by using skills. Browse the available
+          course categories, choose your favourite one and start learning.
+        subHeadingVariant: subtitle1
+        sx:
+          textAlign: left
+        elevation: 1
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList2
+      props:
+        resourceButtonVariant: outlined
+        resourceDisplayType: card
+        resources:
+          - heading: Themeable
+            body: Customize any part of our components to match your design needs.
+            linkText: More Themeable
+            link: https://www.google.com
+            muiIcon: AccessAlarm
+            iconSrc: ""
+            iconVariant: square
+            iconSX: {}
+            linkTarget: _blank
+          - heading: Customization
+            body: Change the look and feel of our components to suit your preferences.
+            linkText: Learn More
+            link: https://www.facebook.com
+            muiIcon: AccessibilityNew
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(255, 235, 59, 0.1)
+              color: rgb(255, 235, 59)
+            linkTarget: _blank
+          - heading: Adaptability
+            body: Our components are flexible and easy to adapt for various use cases.
+            linkText: Get Started
+            link: https://www.apple.com
+            muiIcon: AcUnit
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(75, 175, 80, 0.1)
+              color: rgb(76, 175, 80)
+            linkTarget: _blank
+          - heading: Tailor-Made Solutions
+            body: Create tailor-made solutions with our versatile components.
+            linkText: Explore Features
+            link: https://www.microsoft.com
+            muiIcon: AccessTime
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(244, 67, 54, 0.1)
+              color: rgb(244, 67, 54)
+            linkTarget: _blank
+          - heading: Easily Customizable
+            body: Easily customize and integrate our components into your projects.
+            linkText: Discover More
+            link: https://www.amazon.com
+            muiIcon: AccountBalance
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(3, 169, 244, 0.1)
+              color: rgb(3, 169, 244)
+            linkTarget: _blank
+          - heading: Lorem Ipsum
+            body: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            linkText: Read More
+            link: https://www.example.com
+            muiIcon: AccountCircle
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(128, 128, 128, 0.1)
+              color: rgb(128, 128, 128)
+            linkTarget: _blank
+          - heading: Productivity
+            body: Boost your productivity with our efficient tools and features.
+            linkText: Explore Tools
+            link: https://www.linkedin.com
+            muiIcon: Accessibility
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(0, 0, 0, 0.1)
+              color: rgb(0, 0, 0)
+            linkTarget: _blank
+          - heading: Explore More
+            body: Discover a world of possibilities with our innovative solutions.
+            linkText: Explore Now
+            link: https://www.microsoft.com
+            muiIcon: AccountBox
+            iconSrc: ""
+            iconVariant: square
+            iconSX:
+              bgcolor: rgba(255, 0, 0, 0.1)
+              color: rgb(255, 0, 0)
+            linkTarget: _blank
+        resourceSX:
+          textAlign: right
+          alignItems: end
+          justifyContent:
+            xs: start
+        columns:
+          xs: 1
+          sm: 2
+          md: 4
+          lg: 4
+          xl: 4
+        heading: "Card 4 Align Right : Choose your course by categories"
+        headingVariant: h2
+        subHeading:
+          The best way to learn is by using skills. Browse the available
+          course categories, choose your favourite one and start learning.
+        subHeadingVariant: subtitle1
+        sx:
+          textAlign: left
+        resourceHeadingVariant: subtitle1
+        resourceBodyVariant: body2
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList5
+      props:
+        resourceButtonVariant: outlined
+        resourceDisplayType: list
+        resources:
+          $$jsExpression: |
+            resourcejsonbin.data.resources2
+        resourceSX:
+          textAlign: center
+          alignItems: center
+          justifyContent:
+            xs: center
+        columns:
+          xs: 1
+          sm: 2
+          md: 4
+          lg: 4
+          xl: 4
+        heading: "Compatibility:"
+        headingVariant: body1
+        subHeadingVariant: h3
+        sx:
+          textAlign: left
+        resourceHeadingVariant: subtitle1
+        resourceBodyVariant: body2
+        subHeading: Compatible with all major browsers
+    - component: codeComponent.ColumnList
+      name: codeComponent_ColumnList6
+      props:
+        resourceButtonVariant: outlined
+        resourceDisplayType: list
+        resources:
+          - body: ""
+            link: ""
+            iconSX:
+              width: 80px
+              height: 80px
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/microsoft-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            link: ""
+            iconSX:
+              color: rgb(255, 235, 59)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(255, 235, 59, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/amazon-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            iconSX:
+              color: rgb(76, 175, 80)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(75, 175, 80, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/coca-cola-logo.png
+            muiIcon: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            link: ""
+            iconSX:
+              color: rgb(244, 67, 54)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(244, 67, 54, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/samsung-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            link: ""
+            iconSX:
+              color: rgb(244, 67, 54)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(244, 67, 54, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/walt-disney-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            link: ""
+            iconSX:
+              color: rgb(244, 67, 54)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(244, 67, 54, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/google-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+          - body: ""
+            link: ""
+            iconSX:
+              color: rgb(244, 67, 54)
+              width: 80px
+              height: 80px
+              bgcolor: rgba(244, 67, 54, 0.1)
+            heading: ""
+            iconSrc: https://s3.amazonaws.com/cdn.designcrowd.com/blog/100-Famous-Brand%20Logos-From-The-Most-Valuable-Companies-of-2020/apple-logo.png
+            muiIcon: ""
+            linkText: ""
+            linkTarget: _blank
+            iconVariant: square
+        resourceSX:
+          textAlign: center
+          alignItems: center
+          justifyContent:
+            xs: center
+        columns:
+          xs: 3
+          sm: 3
+          md: 7
+          lg: 7
+          xl: 7
+        headingVariant: body1
+        subHeadingVariant: h3
+        sx:
+          textAlign: left
+        resourceHeadingVariant: subtitle1
+        resourceBodyVariant: body2
+        subHeading: Image Icon Display
+  queries:
+    - name: resourcejsonbin
+      query:
+        kind: rest
+        url: https://api.npoint.io/73a02fb62dc9108bc08f
+        headers: []
+        method: GET
+        searchParams: []

@@ -1,0 +1,71 @@
+{
+    "resources": [
+      {
+        "heading": "",
+        "body": "",
+        "linkText": "Link 1",
+        "link": "#1",
+        "linkTarget": "_blank",
+        "muiIcon": "",
+        "iconSrc": "https://assets.maccarianagency.com/backgrounds/img8.jpg",
+        "iconVariant": "square",
+        "iconSX": {}
+      },
+      {
+        "heading": "",
+        "body": "",
+        "linkText": "Link 2",
+        "link": "#2",
+        "linkTarget": "_blank",
+        "muiIcon": "ThreeSixty",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(255, 235, 59, 0.1)",
+          "color": "rgb(255, 235, 59)"
+        }
+      },
+      {
+        "heading": "",
+        "body": "",
+        "linkText": "Link 3",
+        "link": "#3",
+        "linkTarget": "_blank",
+        "muiIcon": "ThreeSixty",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(75, 175, 80, 0.1)",
+          "color": "rgb(76, 175, 80)"
+        }
+      },
+      {
+        "heading": "",
+        "body": "",
+        "linkText": "Link 4",
+        "link": "#4",
+        "linkTarget": "_blank",
+        "muiIcon": "ThreeSixty",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(244, 67, 54, 0.1)",
+          "color": "rgb(244, 67, 54)"
+        }
+      },
+      {
+        "heading": "",
+        "body": "",
+        "linkText": "Link 5",
+        "link": "#5",
+        "linkTarget": "_blank",
+        "muiIcon": "ThreeSixty",
+        "iconSrc": "",
+        "iconVariant": "square",
+        "iconSX": {
+          "bgcolor": "rgba(3, 169, 244, 0.1)",
+          "color": "rgb(3, 169, 244)"
+        }
+      }
+    ]
+  }

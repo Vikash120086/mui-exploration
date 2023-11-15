@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: theme
+spec:
+  options:
+    palette:
+      mode: light
+      primary:
+        main: "#ff5722"
+        contrastText: "#fff"
+      secondary:
+        main: "#4caf50"
+        contrastText: rgba(0, 0, 0, 0.87)
+    miButton:
+      styleOverrides:
+        root:
+          fontSize: 1rem

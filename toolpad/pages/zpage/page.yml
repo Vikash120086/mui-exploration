@@ -1,0 +1,139 @@
+apiVersion: v1
+kind: page
+spec:
+  id: S2p9R8u
+  title: Default page
+  content:
+    - component: PageRow
+      name: pageRow
+      props:
+        justifyContent: start
+      children:
+        - component: Text
+          name: text1
+        - component: PageColumn
+          name: pageColumn
+          layout:
+            columnSize: 1
+          children:
+            - component: DataGrid
+              name: dataGrid
+              layout:
+                columnSize: 1
+              props:
+                rows:
+                  $$jsExpression: |
+                    dogQuery.data
+                columns:
+                  - field: "0"
+                    type: string
+                  - field: "1"
+                    type: json
+            - component: Container
+              name: container
+              children:
+                - component: Text
+                  name: text4
+                - component: Image
+                  name: image2
+                - component: Text
+                  name: text2
+                  props:
+                    variant: h2
+    - component: codeComponent.IntroText
+      name: codeComponent_IntroText
+      props:
+        title: lkjklhukgljkg
+    - component: Container
+      name: container1
+      children:
+        - component: Text
+          name: text5
+          props:
+            variant: h1
+            loading: false
+        - component: Text
+          name: text3
+          props:
+            variant: h2
+        - component: PageRow
+          name: pageRow1
+          props:
+            justifyContent: start
+          children:
+            - component: Text
+              name: text6
+              props:
+                variant: h4
+            - component: Button
+              name: button
+    - component: Image
+      name: image
+      props:
+        src:
+          $$jsExpression: |
+            imageQuery.data.message
+        fit: none
+    - component: Text
+      name: text
+      props:
+        variant: h3
+        value: Qr code section
+    - component: TextField
+      name: qrField
+      props:
+        label: qrcode label
+        defaultValue: https://google.com
+        variant: standard
+        size: medium
+        fullWidth: true
+    - component: Image
+      name: image1
+      props:
+        src:
+          $$jsExpression: |
+            qrCodeConvertedImage.data
+        loading: true
+        fit: none
+      layout:
+        verticalAlign: center
+    - component: Text
+      name: qrCodeValue
+      props:
+        value:
+          $$jsExpression: |
+            qrCodeConvertedImage.data
+  queries:
+    - name: dogQuery
+      query:
+        kind: rest
+        url: https://dog.ceo/api/breeds/list/all
+        headers: []
+        method: GET
+        transform: return Object.entries(data.message)
+        transformEnabled: true
+        searchParams: []
+      enabled: true
+    - name: imageQuery
+      query:
+        kind: rest
+        url:
+          $$jsExpression: |
+            `https://dog.ceo/api/breed/${parameters.breed}/images/random`
+        headers: []
+        method: GET
+        searchParams: []
+      parameters:
+        - name: breed
+          value:
+            $$jsExpression: |
+              dataGrid.selection?.[0] ?? "akita"
+    - name: qrCodeConvertedImage
+      query:
+        function: functions.ts#generateQrCode
+        kind: local
+      parameters:
+        - name: content
+          value:
+            $$jsExpression: |
+              qrField.value

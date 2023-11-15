@@ -1,0 +1,68 @@
+{
+    "links": [
+      {
+        "link": "#1",
+        "muiIcon": "AcUnit",
+        "linkText": "Link 1"
+      },
+      {
+        "link": "#2",
+        "muiIcon": "Approval",
+        "linkText": "Link 2"
+      },
+      {
+        "link": "#3",
+        "muiIcon": "Apps",
+        "linkText": "Link 3"
+      },
+      {
+        "link": "#4",
+        "muiIcon": "Backup",
+        "linkText": "Link 4"
+      },
+      {
+        "link": "#5",
+        "muiIcon": "Bathroom",
+        "linkText": "Link 5"
+      },
+      {
+        "link": "#6",
+        "muiIcon": "Bedtime",
+        "linkText": "Link 6"
+      }
+    ],
+    "subLinks": [
+      {
+        "link": "#1",
+        "muiIcon": "AcUnit",
+        "linkText": "sub Link 1"
+      },
+      {
+        "link": "#2",
+        "muiIcon": "Approval",
+        "linkText": "sub Link 2"
+      },
+      {
+        "link": "#3",
+        "muiIcon": "Apps",
+        "linkText": "sub Link 3"
+      },
+      {
+        "link": "#4",
+        "muiIcon": "Backup",
+        "linkText": "sub Link 4"
+      },
+      {
+        "link": "#5",
+        "muiIcon": "Bathroom",
+        "linkText": "sub Link 5"
+      },
+      {
+        "link": "#6",
+        "muiIcon": "Bedtime",
+        "linkText": "sub Link 6"
+      }
+    ],
+    "disclaimer": "disclaimer",
+    "logo": ""
+  }
